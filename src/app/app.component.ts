@@ -1,4 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, Injector, effect, inject, runInInjectionContext } from '@angular/core';
+
+import { NasaApiService } from './services/nasa-api.service';
 
 @Component({
   selector: 'app-root',
@@ -6,5 +8,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'nasa-coll';
+  readonly nasaApiService = inject(NasaApiService);
+  readonly injector = inject(Injector);
+  public spinner = false;
+
+  public ngOnInit(): void {
+    runInInjectionContext(this.injector, () => {
+      effect(() => {
+        this.spinner = this.nasaApiService.spinnerSignal();
+      });
+    });
+  }
+
 }

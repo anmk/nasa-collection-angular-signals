@@ -1,0 +1,22 @@
+mat-toolbar {
+  height: 70px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+button {
+  margin: 2px;
+}
+
+.toolbar-title {
+  flex: 1 1 0%;
+}
+
+@media screen and (max-width: 400px) {
+  .toolbar-title {
+    display: none;
+  }
+}

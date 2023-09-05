@@ -1,0 +1,7 @@
+<ng-container *ngIf="getImage() as image; else info">
+  <app-card [image]="image" [type]="type"></app-card>
+</ng-container>
+
+<ng-template #info class="container">
+  <app-data-not-available></app-data-not-available>
+</ng-template>

@@ -1,0 +1,33 @@
+<ng-container class="container">
+  <div class="header">
+
+      <mat-card [ngClass]="imageWidth? 'max-card' : 'card'" *ngIf="image">
+      <mat-card-header class="title">
+        <div *ngIf="type===galleryDetail">
+          <mat-card-title>{{image.title}}</mat-card-title>
+          <mat-card-subtitle>Date published "Astronomy Picture of the Day" by NASA: {{image.date}}</mat-card-subtitle>
+        </div>
+        <div *ngIf="type===apod">
+          <mat-card-title>NASA Astronomy Picture of the Day</mat-card-title>
+          <mat-card-subtitle *ngIf="image.title">{{image.title}}</mat-card-subtitle>
+        </div>
+      </mat-card-header>
+      
+      <img mat-card-image [src]="image.url" [ngClass]="imageWidth ? 'max-card' : 'card'" alt="{{image.title}}">
+      
+      <mat-card-content class="explanation">
+        <p>{{image.explanation}}</p>
+      </mat-card-content>
+
+      <mat-card-actions>
+        <span>
+          <button mat-button routerLink="/"><mat-icon>home</mat-icon>Home</button>
+          <button mat-button routerLink="/gallery"><mat-icon>photo_album</mat-icon>Gallery</button>
+          <button mat-button routerLink="/apod"><mat-icon>photo</mat-icon>Astronomy Picture of the day</button>
+          <button mat-button (click)="imageWidth = !imageWidth"><mat-icon>photo_size_select_large</mat-icon>Resize the image</button>
+        </span>
+      </mat-card-actions>
+    </mat-card>
+
+  </div>
+</ng-container>

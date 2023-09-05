@@ -1,0 +1,16 @@
+<button class="search" mat-raised-button (click)="search()"><mat-icon>photo_album</mat-icon>Search</button>
+
+<ng-container *ngIf="getImages() as images; else info">
+  <mat-grid-list cols="4" rowHeight="4:3" gutterSize="2">
+    <mat-grid-tile *ngFor="let image of images">
+      <div *ngIf="image.media_type==='image'">
+        <img [src]="image.url" alt="{{image.title}}" routerLink="{{image.date}}">
+        <mat-grid-tile-footer>{{image.title}} - {{image.date}}</mat-grid-tile-footer>
+      </div>
+    </mat-grid-tile>
+  </mat-grid-list>
+</ng-container>
+
+<ng-template #info class="container">
+  <app-data-not-available></app-data-not-available>
+</ng-template>
