@@ -1,4 +1,4 @@
-# Nasa Collection
+# NASA Collection
 This project uses ![Angular](https://img.shields.io/badge/Angular-DD0031?style=plastic&logo=angular&logoColor=white) It was generated with [Angular CLI](https://github.com/angular/angular-cli)
 
 ![version](https://img.shields.io/badge/angular%20cli%20version-16.2.1-blue?style=plastic) ![GitHub repo size](https://img.shields.io/github/repo-size/anmk/nasa-collection-angular-signals?style=plastic)
@@ -19,7 +19,7 @@ Run `ng build` to build the project. The build artifacts will be stored in the `
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
 
 ## Technologies
-Nasa Collection uses the following open source projects for proper operation:
+NASA Collection uses the following open source projects for proper operation:
 * [Angular](https://github.com/angular/angular)
 * [Angular CLI](https://github.com/angular/angular-cli)
 * [Angular Signals](https://angular.io/guide/signals)
