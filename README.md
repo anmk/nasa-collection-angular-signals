@@ -1,5 +1,6 @@
 # Nasa Collection
 This project uses ![Angular](https://img.shields.io/badge/Angular-DD0031?style=plastic&logo=angular&logoColor=white) It was generated with [Angular CLI](https://github.com/angular/angular-cli)
+
 ![version](https://img.shields.io/badge/angular%20cli%20version-16.2.1-blue?style=plastic) ![GitHub repo size](https://img.shields.io/github/repo-size/anmk/nasa-collection-angular-signals?style=plastic)
 
 ## Introduction
