@@ -1,7 +1,15 @@
 <ng-container *ngIf="getImage() as image; else info">
-  <app-card [image]="image" [type]="type"></app-card>
+  <div *ngIf="image.media_type==='image'; else vInfo">
+    <app-card [image]="image" [type]="type"></app-card>
+  </div>
 </ng-container>
 
 <ng-template #info class="container">
   <app-data-not-available></app-data-not-available>
+</ng-template>
+
+<ng-template #vInfo class="container">
+  <div class="center">
+    <p class="header">Sometimes a video is posted instead of a photo. The current version of the app does not support videos.</p>
+  </div>
 </ng-template>
