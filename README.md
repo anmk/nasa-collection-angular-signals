@@ -33,3 +33,19 @@ NASA Collection uses the following open source projects for proper operation:
 * [TypeScript](https://github.com/microsoft/TypeScript)
 * [node.js](https://nodejs.org/en/)
 * [Scss](https://github.com/sass)
+
+## Some screenshots from the app:
+:point_right: *Sample view "After Sunset Planet Parade".* :point_down:
+![image1](https://github.com/anmk/nasa-collection-angular-signals/assets/5839775/5dc533cd-0bdc-4bfc-9e98-9865c2d04eee)
+:point_right: *"After Sunset Planet Parade" Resized.* :point_down:
+![image2](https://github.com/anmk/nasa-collection-angular-signals/assets/5839775/f33a65d3-6cf9-45a6-8b97-836f9c85e410)
+:point_right: *Selecting a range of photos from the datepicker.* :point_down:
+![image3](https://github.com/anmk/nasa-collection-angular-signals/assets/5839775/b7e36b48-75c6-431e-9954-703d3a4c10de)
+:point_right: *Selected photo collection displayed.* :point_down:
+![image4](https://github.com/anmk/nasa-collection-angular-signals/assets/5839775/792ca745-15ff-4eab-b41c-c86afb883bb4)
+:point_right: *The Ring Nebula from Webb.* :point_down:
+![image5](https://github.com/anmk/nasa-collection-angular-signals/assets/5839775/e8de19ab-7466-423c-97a3-548fd10ab00f)
+:point_right: *Star Formation in the Pacman Nebula.* :point_down:
+![image6](https://github.com/anmk/nasa-collection-angular-signals/assets/5839775/1e320f4e-86bd-45c5-b4c1-1ce44f947dc3)
+:point_right: *NASA "Astronomy Picture of the Day" - The Large Cloud of Magellan.* :point_down:
+![image7](https://github.com/anmk/nasa-collection-angular-signals/assets/5839775/dbfcaa4b-1ad2-434c-9021-03cc6b88cd7c)
