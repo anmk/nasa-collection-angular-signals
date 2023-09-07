@@ -3,6 +3,10 @@ This project uses ![Angular](https://img.shields.io/badge/Angular-DD0031?style=p
 
 ![version](https://img.shields.io/badge/angular%20cli%20version-16.2.1-blue?style=plastic) ![GitHub repo size](https://img.shields.io/github/repo-size/anmk/nasa-collection-angular-signals?style=plastic)
 
+The application is available at the following addresses:
+https://nasa-apod-collection.web.app
+https://nasa-apod-collection.firebaseapp.com
+
 ## Introduction
 An application to see the current "NASA Astronomy picture of the day" or any other since 1995. You can see many interesting pictures from the Webb and Hubble space telescopes or other photos.
 
